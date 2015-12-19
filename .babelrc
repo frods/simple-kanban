@@ -2,7 +2,7 @@
   "optional": [
     "es7.classProperties",
     "es7.decorators",
-    "es7.objectRestSpreaad"
+    "es7.objectRestSpread"
   ],
   "env": {
     "start": {
