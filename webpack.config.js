@@ -9,6 +9,8 @@ const PATHS = {
   build: path.join(__dirname, 'build')
 };
 
+process.env.BABEL_ENV = TARGET;
+
 var common = {
   entry: PATHS.app,
   // Given webpack-dev-server runs in-memory, we can drop
