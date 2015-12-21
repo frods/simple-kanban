@@ -26,7 +26,7 @@ class NoteStore {
       }
       return note;
     });
-    this.setSatate({notes});
+    this.setState({notes});
   }
 
   delete(id) {
